@@ -69,18 +69,15 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Tim Baker.`,
+  name: `I'm Aspire GIG.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
+        I'm a Aspire based <strong className="text-stone-100">Full Stack Software Engineer</strong> infusing creativity and functionality into web solutions.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+        Fluent in front-end technologies (HTML, CSS, JavaScript) and back-end frameworks (Node.js, Express).
+        Experienced in database management and cloud deployment. Let's build the digital world together! Connect with me for innovative and scalable software solutions.
       </p>
     </>
   ),
@@ -104,16 +101,14 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `Experienced MERN stack developer adept at creating dynamic and responsive web applications. Proficient in MongoDB, Express.js, React.js, and Node.js, with a strong focus on scalability and efficiency. Skilled in database management, server-side logic, and front-end design. Passionate about leveraging JavaScript technologies to build robust and user-friendly applications. Let's collaborate on cutting-edge web development projects!`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Location', text: 'Porto, Portugal', Icon: MapIcon},
+    {label: 'Age', text: '32', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'Portugal', Icon: FlagIcon},
+    {label: 'Interests', text: 'Motorcycles, Soccer, Swimming', Icon: SparklesIcon},
+    {label: 'Study', text: 'University of Porto', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'Extas Estate, inc.', Icon: BuildingOffice2Icon},
   ],
 };
 
@@ -196,69 +191,69 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Stoplight',
+    description: 'Stoplight.io is an advanced platform tailored for the design, documentation, and construction of fast and high-quality APIs. The tool is engineered with the modern API workflow in mind, offering an intuitive interface and thoughtful features to enable the complete API design lifecycle.',
+    url: 'https://stoplight.io/solutions',
     image: porfolioImage1,
   },
   {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Vertiseit',
+    description: 'Vertiseit is the online home of Vertiseit AB (publ), a retail tech company that specializes in digital in-store solutions. The website serves as a comprehensive platform providing information about the companys products, services, and mission. Through its subsidiaries Dise and Grassfish, Vertiseit offers SaaS platforms for In-store Experience Management (IXM) and related consulting services, catering to global brands and leading retailers across Europe.',
+    url: 'https://vertiseit.com/',
     image: porfolioImage2,
   },
   {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Lamericausa',
+    description: 'LAMERICA USA is a luxury real estate agency with a diverse range of elite properties. The website lamericausa.com provides a comprehensive platform offering information about luxury properties in the USA, focusing on Southern California, particularly Beverly Hills and Los Angeles. The site emphasizes opulent lifestyle options, featuring high-end single-family homes and estates with sophisticated architectural designs, upscale features, and modern sophistication.',
+    url: 'https://lamericausa.com/',
     image: porfolioImage3,
   },
   {
     title: 'Project title 4',
     description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    url: 'https://origininvestments.com/',
     image: porfolioImage4,
   },
   {
     title: 'Project title 5',
     description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    url: 'https://longpoint.com/',
     image: porfolioImage5,
   },
   {
     title: 'Project title 6',
     description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    url: 'https://www.matthews.com/',
     image: porfolioImage6,
   },
   {
     title: 'Project title 7',
     description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    url: 'https://beachwold.com/',
     image: porfolioImage7,
   },
   {
     title: 'Project title 8',
     description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    url: 'https://lighterusa.com/',
     image: porfolioImage8,
   },
   {
     title: 'Project title 9',
     description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    url: 'https://soulnation.com/',
     image: porfolioImage9,
   },
   {
     title: 'Project title 10',
     description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    url: 'https://www.interalia.net/',
     image: porfolioImage10,
   },
   {
     title: 'Project title 11',
     description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    url: 'https://www.24northhotel.com/',
     image: porfolioImage11,
   },
 ];
